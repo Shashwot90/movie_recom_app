@@ -1,0 +1,12 @@
+
+transformers
+torch
+streamlit
+openai
+python-dotenv
+beautifulsoup4
+requests
+googlesearch-python
+lxml
+countryflag
+pandas
