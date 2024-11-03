@@ -8,4 +8,4 @@ def fetch_poster(movie_id):
     data = response.json()
     return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
 def recommend(movie):
-    
+    movie_index = movies[movies['title'] == movie].index[0]
