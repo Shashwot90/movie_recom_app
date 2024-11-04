@@ -9,3 +9,4 @@ def fetch_poster(movie_id):
     return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
 def recommend(movie):
     movie_index = movies[movies['title'] == movie].index[0]
+    distances = similarity[movie_index]
