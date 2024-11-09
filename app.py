@@ -14,4 +14,5 @@ def recommend(movie):
     recomended_movies = [] 
     recommended_movies_posters = []
     for i in movies_list:
+        movie_id= movies.iloc[i[0]].movie_id
     
