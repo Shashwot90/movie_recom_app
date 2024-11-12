@@ -17,4 +17,5 @@ def recommend(movie):
         movie_id= movies.iloc[i[0]].movie_id
         recomended_movies.append(movies.iloc[i[0]].title)
         recommended_movies_posters.append(fetch_poster(movie_id))
+    return recomended_movies, recommended_movies_posters
     
