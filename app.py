@@ -18,4 +18,6 @@ def recommend(movie):
         recomended_movies.append(movies.iloc[i[0]].title)
         recommended_movies_posters.append(fetch_poster(movie_id))
     return recomended_movies, recommended_movies_posters
+
+movies_dict = pickle.load(open('D:\\amnil\\query\\movie-recommender-system\\movie_dict.pkl', 'rb'))
     
