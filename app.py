@@ -20,4 +20,5 @@ def recommend(movie):
     return recomended_movies, recommended_movies_posters
 
 movies_dict = pickle.load(open('D:\\amnil\\query\\movie-recommender-system\\movie_dict.pkl', 'rb'))
+movies = pd.DataFrame(movies_dict) 
     
