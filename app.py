@@ -25,3 +25,5 @@ similarity = pickle.load(open('D:\\amnil\\query\\movie-recommender-system\\simil
 
 
 st.title('Movie Recommender System')
+
+selected_movie_name = st.selectbox(
