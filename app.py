@@ -28,3 +28,5 @@ st.title('Movie Recommender System')
 
 selected_movie_name = st.selectbox(
     'How',
+    movies['title'].values
+    
