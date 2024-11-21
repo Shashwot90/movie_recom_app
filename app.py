@@ -30,3 +30,4 @@ selected_movie_name = st.selectbox(
     'How',
     movies['title'].values
 )
+if st.button('Recommend'):
